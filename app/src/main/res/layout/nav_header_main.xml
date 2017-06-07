@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/side_nav_bar"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_app_icon" />
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="4dp"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="282432106@qq.com" />
+        <TextView
+            android:autoLink="all"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://github.com/Lemonqsj" />
+
+        <TextView
+            android:autoLink="all"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="http://www.jianshu.com/u/d84f93a917c2" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
